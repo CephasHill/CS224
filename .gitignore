@@ -1,0 +1,29 @@
+# C and native build outputs
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dylib
+myxxd
+lab1/src
+project2/bmpFilter
+
+# Debugging and profiling output
+*.dSYM/
+*.pdb
+*.ilk
+*.log
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local course materials and archives
+*.pdf
+*.zip
