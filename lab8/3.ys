@@ -1,0 +1,9 @@
+irmovq $8, %rsi
+irmovq list, %rcx
+loop:
+	mrmovq (%rcx), %rdi
+	addq %rdi, %rax
+	addq %rsi, %rcx
+	mrmovq (%rcx), %rcx
+	andq %rcx, %rcx
+	jne loop

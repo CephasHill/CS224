@@ -1,0 +1,11 @@
+irmovq src, %rbx
+irmovq dest, %rcx
+irmovq $1, %rbp
+irmovq $8 %rsi
+loop:
+	mrmovq (%rbx), %rdx
+	rmmovq %rdx, (%rcx)
+	addq %rsi, %rbx
+	addq %rsi, %rcx
+	subq %rbp, %rax
+	jne loop

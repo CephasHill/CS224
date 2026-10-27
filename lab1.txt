@@ -1,0 +1,35 @@
+1. /users/animation/peterhil/
+2. /users/animation/peterhil/cs224
+3. 0
+4. /users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f1/Bashful.txt
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f1/Dopey.txt
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f1/Grumpy.txt
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f1/Happy.txt
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f1/Sleepy.txt
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f1/Sneezy.txt
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f1/Doc.txt
+5. 5
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f2/bears
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f2/house
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f2/house/beds
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f2/house/bowls
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f2/house/chairs
+6. 13
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f2/Goldilocks.txt
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f2/bears/BabyBear.txt
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f2/bears/MamaBear.txt
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f2/bears/PapaBear.txt
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f2/house/beds/JustRight.txt
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f2/house/beds/TooHard.txt
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f2/house/beds/TooSoft.txt
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f2/house/bowls/JustRight.txt
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f2/house/bowls/TooCold.txt
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f2/house/bowls/TooHot.txt
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f2/house/chairs/JustRight.txt
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f2/house/chairs/TooHard.txt
+/users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f2/house/chairs/TooSoft.txt
+7. cp Goldilocks.txt ./house/beds/
+8. rm ./chairs/JustRight.txt/
+9. mv Theseus.txt ./Right/Right/Left/
+10. users/animation/peterhil/cs224/byu-cs-224-labs/1-Linux-Systems/Lab1/f3/Right/Right/Left
+11. 224

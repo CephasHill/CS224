@@ -1,0 +1,24 @@
+a) irmovq $10, %rax
+
+b) addq %rax, %rcx
+
+c)
+andq %rax, %rax
+je ifzero
+
+d)
+rrmovq %rax, %rcx
+rrmovq %rbx, %rax
+rrmovq %rcx, %rbx
+
+or this one I found online, the XOR swap (very fancy)
+
+xorq %rax, %rbx
+xorq %rbx, %rax
+xorq %rax, %rbx
+
+e) mrmovq a, %rdx
+
+f)
+irmovq %0xbbbb, %rax
+rmmovq %rax, b

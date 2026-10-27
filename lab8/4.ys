@@ -1,0 +1,58 @@
+# n - 2 = %r10
+irmovq $1, %rbx
+rrmovq %rax, %r10
+subq %rbx, %r10
+
+# constants
+irmovq $8, %r8
+irmovq $1, %r11
+
+# i
+irmovq $0, %rsi
+
+repeat:
+    # reset index %rsi
+    irmovq $0, %rsi
+    
+    # reset starting address
+    irmovq data, %rdx
+    
+    # swapped flag in %rcx, 1 = false, 0 = true
+    irmovq $1, %rcx
+    loop:
+        # check loop condition
+        rrmovq %rsi, %r14 # temp
+        subq %r10, %r14
+        jge end_inner_loop
+        
+        # %r9 = %rdx + %r8
+        rrmovq %rdx, %r9
+        addq %r8, %r9
+        
+        mrmovq (%rdx), %r12 # %r12 = A[i]
+        mrmovq (%r9), %r13 # %r13 = A[i+1]
+        
+        # if A[i] <= [A+1] skip swap
+        rrmovq %r13, %r14
+        subq %r12, %r14
+        jge noswap
+        
+        # swap
+        rmmovq %r13, (%rdx)
+        rmmovq %r12, (%r9)
+        
+        # update swapped flag
+        irmovq $0, %rcx
+
+    noswap:
+        # increment %rdx by 8
+        addq %r8, %rdx
+        
+        # increment %rsi by 1
+        addq %r11, %rsi
+
+        jmp loop
+        
+    end_inner_loop:
+        andq %rcx, %rcx
+        je repeat
